@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="memberaddresslbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="membernumberlbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="membercitylbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="memberstatelbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="memberpostalcodelbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="addmemberbtn" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="membernamelbl" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="memberaddresstxt" alignment="0" pref="143" max="32767" attributes="0"/>
+                          <Component id="membernumbertxt" alignment="0" max="32767" attributes="0"/>
+                          <Component id="membercitytxt" alignment="0" max="32767" attributes="0"/>
+                          <Component id="memberstatetxt" alignment="0" max="32767" attributes="0"/>
+                          <Component id="memberziptxt" alignment="0" max="32767" attributes="0"/>
+                          <Component id="cancelbtn" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="membernametxt" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="76" max="-2" attributes="0"/>
+                      <Component id="headinglbl" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="headinglbl" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="membernumberlbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="membernumbertxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="membernamelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="membernametxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="memberaddresslbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="memberaddresstxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="membercitylbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="membercitytxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="memberstatelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="memberstatetxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="memberpostalcodelbl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="memberziptxt" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cancelbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="addmemberbtn" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="15" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="membernumberlbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Member Number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addmemberbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add Member"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addmemberbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="membernumbertxt">
+    </Component>
+    <Component class="javax.swing.JLabel" name="memberaddresslbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="memberaddresstxt">
+    </Component>
+    <Component class="javax.swing.JLabel" name="membercitylbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="membercitytxt">
+    </Component>
+    <Component class="javax.swing.JLabel" name="memberstatelbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="State/Province"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="memberstatetxt">
+    </Component>
+    <Component class="javax.swing.JLabel" name="memberpostalcodelbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Postal Code"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="memberziptxt">
+    </Component>
+    <Component class="javax.swing.JLabel" name="headinglbl">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Dialog" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Enter Member Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelbtn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cancel"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelbtnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="membernamelbl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="membernametxt">
+    </Component>
+  </SubComponents>
+</Form>
